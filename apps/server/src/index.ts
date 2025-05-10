@@ -4,7 +4,7 @@ import createHttpError, { isHttpError } from "http-errors";
 import authRouter from "./routes/auth.routes";
 import env from "./utils/validateEnv";
 
-const app = express();
+export const app = express();
 app.use(express.json());
 
 app.get("/", (req: Request, res: Response) => {

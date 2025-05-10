@@ -13,13 +13,21 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@prisma/client": "^6.7.0",
     "@types/express": "^5.0.1",
+    "bcryptjs": "^3.0.2",
+    "connect-redis": "^8.0.3",
     "dotenv": "^16.5.0",
     "envalid": "^8.0.0",
     "express": "^5.1.0",
-    "http-errors": "^2.0.0"
+    "express-session": "^1.18.1",
+    "http-errors": "^2.0.0",
+    "redis": "^5.0.1",
+    "websocket": "^1.0.35"
   },
   "devDependencies": {
+    "@types/websocket": "^1.0.10",
+    "prisma": "^6.7.0",
     "ts-node": "^10.9.2"
   }
 }
