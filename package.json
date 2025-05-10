@@ -1,5 +1,5 @@
 {
-  "name": "rapidMail",
+  "name": "rapidmail",
   "private": true,
   "scripts": {
     "build": "turbo run build",
@@ -19,6 +19,7 @@
   "packageManager": "npm@10.9.0",
   "workspaces": [
     "apps/*",
-    "packages/*"
+    "packages/*",
+    "server"
   ]
 }
